@@ -1,0 +1,40 @@
+# campaigns.json her değiştiğinde: denetle → imzala → imzayı yayınla.
+# Gizli anahtar yalnızca depo ayarlarındaki KAMPANYA_ANAHTAR sırrında durur; depoda yoktur.
+name: Kampanya listesini denetle ve imzala
+on:
+  push:
+    branches: [main]
+    paths: [campaigns.json, tools/check.py]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: imzala
+jobs:
+  imzala:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Denetle
+        run: python3 tools/check.py campaigns.json
+      - name: İmzala ve uygulamadaki açık anahtarla doğrula
+        env:
+          KAMPANYA_ANAHTAR: ${{ secrets.KAMPANYA_ANAHTAR }}
+        run: |
+          set -eu
+          umask 077
+          test -n "$KAMPANYA_ANAHTAR" || { echo "KAMPANYA_ANAHTAR sırrı tanımlı değil"; exit 1; }
+          printf '%s\n' "$KAMPANYA_ANAHTAR" > "$RUNNER_TEMP/k.pem"
+          openssl pkeyutl -sign -inkey "$RUNNER_TEMP/k.pem" -rawin -in campaigns.json | base64 -w0 > campaigns.json.sig
+          rm -f "$RUNNER_TEMP/k.pem"
+          echo 'MCowBQYDK2VwAyEAGp/t8Zl8iu9/MV9LeOaVX8LbTnoxF8zPfnaqL6IYucA=' | base64 -d > "$RUNNER_TEMP/pub.der"
+          base64 -d campaigns.json.sig > "$RUNNER_TEMP/s.bin"
+          openssl pkeyutl -verify -pubin -keyform DER -inkey "$RUNNER_TEMP/pub.der" -rawin -in campaigns.json -sigfile "$RUNNER_TEMP/s.bin"
+      - name: İmzayı yayınla
+        run: |
+          git config user.name "kampanya-imza"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add campaigns.json.sig
+          if ! git diff --cached --quiet; then
+            git commit -m "İmza güncellendi"
+            git push
+          fi

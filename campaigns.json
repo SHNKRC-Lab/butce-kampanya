@@ -1,0 +1,307 @@
+{
+ "version": 1,
+ "generatedAt": "2026-10-12",
+ "checkedAt": "2026-10-07",
+ "campaigns": [
+  {
+   "id": "enpara-dijital-50",
+   "bank": "Enpara",
+   "title": "Netflix, Spotify ve YouTube Premium'a %50 iade",
+   "benefit": "Ayda en çok 150 TL",
+   "detail": "Ayda 300 TL'ye kadar harcamanın %50'si iade edilir. Ayın Enparalısı olmak gerekir. App Store / Google Play üzerinden yapılan ödemeler sayılmaz.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.enpara.com/kampanyalar/netflix-spotify-youtube-kampanyasi",
+   "refund": [
+    "NETFLIX, SPOTIFY VE YOUTUBE"
+   ],
+   "match": [
+    "ENPARA"
+   ]
+  },
+  {
+   "id": "teb-visa-dijital-25",
+   "bank": "TEB",
+   "title": "Visa kartlarla dijital platformlarda %25 indirim",
+   "benefit": "İşlem başı 750 TL'ye kadar, toplam en çok 300 TL",
+   "detail": "Katılmak gerekir. İndirim çekimde anında düşer. Netflix, Spotify, Disney+, PlayStation ve Xbox dahil; 750 TL üstü tek işlemler kapsam dışı.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "Disney+",
+    "PlayStation",
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.teb.com.tr/sizin-icin/dijital-platform-300/",
+   "join": true,
+   "refund": [
+    "DIJITAL PLATFORM KAMPANYASI"
+   ],
+   "match": [
+    "TEB",
+    "TURK EKONOMI"
+   ]
+  },
+  {
+   "id": "enpara-oyun-150",
+   "bank": "Enpara",
+   "title": "Oyun platformlarında 150 TL iade",
+   "benefit": "Tek seferde 750 TL ve üzeri alışverişe 150 TL",
+   "detail": "PlayStation Store, Steam, Epic ve Xbox alışverişlerinde geçerli; ayda bir kez. Ayın Enparalısı olmak gerekir.",
+   "brands": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.enpara.com/kampanyalar/oyun-kampanyasi",
+   "match": [
+    "ENPARA"
+   ]
+  },
+  {
+   "id": "enpara-yapay-zeka-50",
+   "bank": "Enpara",
+   "title": "ChatGPT ve Gemini'ye %50 iade",
+   "benefit": "Ayda en çok 250 TL",
+   "detail": "Ayda 500 TL'ye kadar harcamanın %50'si iade edilir.",
+   "brands": [
+    "ChatGPT"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.enpara.com/kampanyalar/chatgpt-gemini-kampanyasi",
+   "match": [
+    "ENPARA"
+   ]
+  },
+  {
+   "id": "cepteteb-dijital-50",
+   "bank": "TEB",
+   "title": "CEPTETEB kartlarla dijital üyeliklere %50 bonus",
+   "benefit": "Ayda en çok 300 TL",
+   "detail": "Yalnızca CEPTETEB kredi kartları (diğer TEB kartları dahil değil); son ekstre en az 25.000 TL olmalı. Kart ücretsiz.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium",
+    "Amazon Prime",
+    "Apple (iCloud+, Apple TV…)",
+    "Disney+"
+   ],
+   "need": "kart",
+   "until": "",
+   "source": "https://www.cepteteb.com.tr/kampanyalar/cepteteb-kampanyalari/dijital-uyelik",
+   "product": "CEPTETEB kredi kartı",
+   "match": [
+    "TEB",
+    "TURK EKONOMI"
+   ]
+  },
+  {
+   "id": "qnb-gspara-dijital",
+   "bank": "QNB",
+   "title": "GSPara / Fenerpara ile dijital platformlara %50 iade",
+   "benefit": "Ayda en çok 150 TL",
+   "detail": "Netflix, Spotify ve YouTube Premium ödemelerinde.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/netflix",
+   "product": "GSPara / Fenerpara kartı",
+   "match": [
+    "QNB",
+    "FINANSBANK"
+   ]
+  },
+  {
+   "id": "yapikredi-play-dijital",
+   "bank": "Yapı Kredi",
+   "title": "Play kartla dijital platform ve oyunlara %50 indirim",
+   "benefit": "En çok 150 TL",
+   "detail": "Genç segment Play kartlarında.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "PlayStation"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/marka/netflix",
+   "product": "Play kartı",
+   "match": [
+    "YAPI KREDI",
+    "YAPIKREDI"
+   ]
+  },
+  {
+   "id": "ziraat-genc-dijital",
+   "bank": "Ziraat Bankası",
+   "title": "Bankkart Genç ile dijital platformlara %50 iade",
+   "benefit": "500 TL'ye kadar",
+   "detail": "Netflix, Amazon Prime gibi dijital platformlarda; genç müşteriler için.",
+   "brands": [
+    "Netflix",
+    "Amazon Prime"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/marka/netflix",
+   "product": "Bankkart Genç",
+   "match": [
+    "ZIRAAT"
+   ]
+  },
+  {
+   "id": "hayatfinans-dijital",
+   "bank": "Hayat Finans",
+   "title": "Biz Kart ile dijital üyeliklere nakit iade",
+   "benefit": "%75'e varan iade",
+   "detail": "Dijital üyelik ödemelerinde.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/marka/netflix",
+   "match": [
+    "HAYAT FINANS"
+   ]
+  },
+  {
+   "id": "burgan-on-dijital",
+   "bank": "Burgan Bank",
+   "title": "ON kredi kartıyla dijital platformlara %50 iade",
+   "benefit": "2.000 TL'ye kadar",
+   "detail": "Dijital platform ödemelerinde.",
+   "brands": [
+    "Netflix",
+    "Amazon Prime",
+    "Spotify"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/amazon-prime",
+   "match": [
+    "BURGAN"
+   ]
+  },
+  {
+   "id": "vakifbank-dijital-200",
+   "bank": "VakıfBank",
+   "title": "Dijital platform harcamasına 200 TL Worldpuan",
+   "benefit": "200 TL Worldpuan",
+   "detail": "Kartla kayıt olup dijital platformlarda harcama yapınca.",
+   "brands": [
+    "Netflix",
+    "Amazon Prime",
+    "Spotify"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/marka/amazon-prime",
+   "join": true,
+   "match": [
+    "VAKIF"
+   ]
+  },
+  {
+   "id": "maximum-prime",
+   "bank": "İş Bankası",
+   "title": "Maximum kartlara Amazon Prime üyeliği",
+   "benefit": "12 aya kadar ücretsiz Prime",
+   "detail": "Kart kullanımına bağlı.",
+   "brands": [
+    "Amazon Prime"
+   ],
+   "need": "kart",
+   "until": "2027-04-30",
+   "source": "https://kartavantaj.com/marka/amazon-prime",
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
+   ]
+  },
+  {
+   "id": "paraf-prime",
+   "bank": "Halkbank",
+   "title": "Paraf kartlara Amazon Prime",
+   "benefit": "Kart seviyesine göre ücretsiz Prime",
+   "detail": "Kart seviyesine bağlı.",
+   "brands": [
+    "Amazon Prime"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/amazon-prime",
+   "match": [
+    "HALKBANK",
+    "PARAF"
+   ]
+  },
+  {
+   "id": "garanti-oyun",
+   "bank": "Garanti BBVA",
+   "title": "Seçili oyun platformlarında bonus",
+   "benefit": "1.000 TL'ye kadar bonus",
+   "detail": "BonusFlaş'tan katılım gerekir.",
+   "brands": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/marka/playstation",
+   "join": true,
+   "match": [
+    "GARANTI",
+    "BONUS"
+   ]
+  },
+  {
+   "id": "cuzdan-dijital",
+   "bank": "Dijital cüzdanlar",
+   "title": "Tami, PeP, TKPay, N Kolay, Paycell ile dijital platformlara iade",
+   "benefit": "%20–50 iade",
+   "detail": "Ücretsiz uygulama ve sanal kartla; ör. Tami ile Netflix %50 (en çok 150 TL), Paycell ile Prime'ın yarısı.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "Amazon Prime",
+    "PlayStation"
+   ],
+   "need": "yok",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/netflix"
+  },
+  {
+   "id": "operator-ucretsiz",
+   "bank": "Vodafone / Trendyol Plus",
+   "title": "Spotify ve Amazon Prime birkaç ay ücretsiz",
+   "benefit": "3–4 ay ücretsiz",
+   "detail": "Operatör ya da Trendyol Plus üyeliğiyle.",
+   "brands": [
+    "Spotify",
+    "Amazon Prime"
+   ],
+   "need": "yok",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/spotify"
+  }
+ ]
+}
