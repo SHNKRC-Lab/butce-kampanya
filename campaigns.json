@@ -1,14 +1,14 @@
 {
  "version": 1,
- "generatedAt": "2026-10-12",
- "checkedAt": "2026-10-07",
+ "generatedAt": "2026-10-19",
+ "checkedAt": "2026-10-19",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
    "bank": "Enpara",
    "title": "Netflix, Spotify ve YouTube Premium'a %50 iade",
    "benefit": "Ayda en çok 150 TL",
-   "detail": "Ayda 300 TL'ye kadar harcamanın %50'si iade edilir. Ayın Enparalısı olmak gerekir. App Store / Google Play üzerinden yapılan ödemeler sayılmaz.",
+   "detail": "Ayda 300 TL'ye kadar harcamanın %50'si iade edilir; toplam en çok 900 TL. Ayın Enparalısı olmak gerekir. App Store / Google Play üzerinden yapılan ödemeler sayılmaz.",
    "brands": [
     "Netflix",
     "Spotify",
@@ -71,7 +71,7 @@
    "bank": "Enpara",
    "title": "ChatGPT ve Gemini'ye %50 iade",
    "benefit": "Ayda en çok 250 TL",
-   "detail": "Ayda 500 TL'ye kadar harcamanın %50'si iade edilir.",
+   "detail": "Ayda 500 TL'ye kadar harcamanın %50'si iade edilir; toplam en çok 1.000 TL. Ayın Enparalısı olmak gerekir.",
    "brands": [
     "ChatGPT"
    ],
@@ -87,14 +87,19 @@
    "bank": "TEB",
    "title": "CEPTETEB kartlarla dijital üyeliklere %50 bonus",
    "benefit": "Ayda en çok 300 TL",
-   "detail": "Yalnızca CEPTETEB kredi kartları (diğer TEB kartları dahil değil); son ekstre en az 25.000 TL olmalı. Kart ücretsiz.",
+   "detail": "Yalnızca CEPTETEB kredi kartları (diğer TEB kartları dahil değil); son ekstre en az 25.000 TL olmalı. Kampanya boyunca en çok 3.600 TL. Kart ücretsiz.",
    "brands": [
     "Netflix",
     "Spotify",
     "YouTube Premium",
     "Amazon Prime",
     "Apple (iCloud+, Apple TV…)",
-    "Disney+"
+    "Xbox",
+    "ChatGPT",
+    "Exxen",
+    "BluTV / HBO Max",
+    "TOD / beIN",
+    "Gain"
    ],
    "need": "kart",
    "until": "",
@@ -148,26 +153,32 @@
   {
    "id": "ziraat-genc-dijital",
    "bank": "Ziraat Bankası",
-   "title": "Bankkart Genç ile dijital platformlara %50 iade",
-   "benefit": "500 TL'ye kadar",
-   "detail": "Netflix, Amazon Prime gibi dijital platformlarda; genç müşteriler için.",
+   "title": "Bankkart Genç ile dijital platformlara %50 Jest Lira",
+   "benefit": "En çok 500 TL Jest Lira",
+   "detail": "30 TL ve üzeri ödemelerde %50 Jest Lira. Bankkart Mobil'den katılmak gerekir; yalnızca Bankkart Genç kredi kartı.",
    "brands": [
     "Netflix",
-    "Amazon Prime"
+    "YouTube Premium",
+    "Spotify",
+    "Amazon Prime",
+    "Exxen",
+    "Disney+",
+    "Gain"
    ],
    "need": "kart",
    "until": "2026-10-31",
-   "source": "https://kartavantaj.com/marka/netflix",
+   "source": "https://www.bankkart.com.tr/kampanyalar/diger-kampanyalar/bankkart-genclilere-dijital-platform-odemelerinde-50-jest-lira",
    "product": "Bankkart Genç",
    "match": [
     "ZIRAAT"
-   ]
+   ],
+   "join": true
   },
   {
    "id": "hayatfinans-dijital",
    "bank": "Hayat Finans",
    "title": "Biz Kart ile dijital üyeliklere nakit iade",
-   "benefit": "%75'e varan iade",
+   "benefit": "%75'e varan iade, en çok 300 TL",
    "detail": "Dijital üyelik ödemelerinde.",
    "brands": [
     "Netflix",
@@ -222,14 +233,148 @@
    "id": "maximum-prime",
    "bank": "İş Bankası",
    "title": "Maximum kartlara Amazon Prime üyeliği",
-   "benefit": "12 aya kadar ücretsiz Prime",
-   "detail": "Kart kullanımına bağlı.",
+   "benefit": "6 ay (Maximum) / 12 ay (Maximiles) ücretsiz Prime",
+   "detail": "İşCep veya Maximum Mobil'den katılmak gerekir; son 3 ayda en az bir harcama şartı. Ek, aidatsız ve ticari kartlar hariç; bir kez yararlanılır.",
    "brands": [
     "Amazon Prime"
    ],
    "need": "kart",
    "until": "2027-04-30",
-   "source": "https://kartavantaj.com/marka/amazon-prime",
+   "source": "https://www.maximum.com.tr/kampanyalar/12-aya-varan-amazon-prime-uyeligi",
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
+   ],
+   "join": true
+  },
+  {
+   "id": "paraf-prime",
+   "bank": "Halkbank",
+   "title": "Paraf Platinum ve Premium kartlara Amazon Prime iadesi",
+   "benefit": "Prime üyelik ücreti her ay iade",
+   "detail": "Halkbank Mobil veya Paraf Mobil'den katılmak gerekir. Yalnızca amazon.com.tr üyelikleri geçerli.",
+   "brands": [
+    "Amazon Prime"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://www.paraf.com.tr/tr/parafi-taniyin/paraf-platinum-ve-parafly-platinumdan-amazon-prime-uyeligi-hediye.html",
+   "match": [
+    "HALKBANK",
+    "PARAF"
+   ],
+   "product": "Paraf Platinum, Parafly Platinum, Paraf Premium",
+   "join": true
+  },
+  {
+   "id": "garanti-oyun",
+   "bank": "Garanti BBVA",
+   "title": "Seçili oyun platformlarında bonus",
+   "benefit": "3.000 TL ve üzeri tek harcamaya 1.000 TL bonus",
+   "detail": "18–26 yaş; Garanti BBVA Mobil'de Garanti BBVA Genç alanından katılmak gerekir. Steam, PlayStation Network, Xbox ve seçili mobil oyunlar. Taksitli işlemler hariç.",
+   "brands": [
+    "PlayStation",
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-oyun-platformlari-kampanyalari",
+   "join": true,
+   "match": [
+    "GARANTI",
+    "BONUS"
+   ]
+  },
+  {
+   "id": "garanti-genc-steam",
+   "bank": "Garanti BBVA",
+   "title": "Bonus Genç ile Steam, iTunes ve GeForce NOW'a bonus",
+   "benefit": "300 TL ve üzeri harcamaya 100 TL, toplam 500 TL bonus",
+   "detail": "BonusFlaş'tan katılmak gerekir. Taksitli işlemler ve dijital cüzdan harcamaları hariç.",
+   "brands": [
+    "Apple (iCloud+, Apple TV…)"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-genc-steam-kampanya",
+   "join": true,
+   "product": "Bonus Genç",
+   "match": [
+    "GARANTI",
+    "BONUS"
+   ]
+  },
+  {
+   "id": "garanti-icloud",
+   "bank": "Garanti BBVA",
+   "title": "iCloud ödemeleri kadar bonus",
+   "benefit": "En çok 250 TL bonus",
+   "detail": "18–26 yaş; Garanti BBVA Mobil'de Garanti BBVA Genç alanından katılmak gerekir. Sanal kartlar ve dijital cüzdan harcamaları hariç.",
+   "brands": [
+    "Apple (iCloud+, Apple TV…)"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-icloud-odeme-kampanyasi",
+   "join": true,
+   "match": [
+    "GARANTI",
+    "BONUS"
+   ]
+  },
+  {
+   "id": "garanti-yapay-zeka",
+   "bank": "Garanti BBVA",
+   "title": "ChatGPT ve Claude harcaması kadar bonus",
+   "benefit": "En çok 250 TL bonus",
+   "detail": "150 TL ve üzeri harcamada. 18–26 yaş; Garanti BBVA Mobil'de Garanti BBVA Genç alanından katılmak gerekir.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-yapay-zeka-kampanyasi",
+   "join": true,
+   "match": [
+    "GARANTI",
+    "BONUS"
+   ]
+  },
+  {
+   "id": "qnb-yapay-zeka-300",
+   "bank": "QNB",
+   "title": "Seçili yapay zeka platformlarında ParaPuan",
+   "benefit": "750 TL ve üzeri harcamaya 150 TL, toplam 300 TL ParaPuan",
+   "detail": "ChatGPT, Gemini, Claude ve Midjourney. Harcamadan önce QNB Mobil'den ya da YZEKA yazıp 2273'e SMS ile katılmak gerekir.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "https://www.qnbcard.com.tr/kampanyalar/secili-yapay-zeka-platformlarinda-300-tlye-varan-parapuan-43289",
+   "join": true,
+   "match": [
+    "QNB",
+    "FINANSBANK"
+   ]
+  },
+  {
+   "id": "isbank-yapay-zeka-20",
+   "bank": "İş Bankası",
+   "title": "Seçili yapay zeka platformlarında %20 indirim",
+   "benefit": "Ayda 200 TL'ye kadar (Black Plus'ta 300 TL)",
+   "detail": "Ayda 300 TL ve üzeri ChatGPT, Claude.ai ve Midjourney harcamalarında; Black ve Black Plus müşterilerine. App Store / Google Play ödemeleri hariç.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "",
+   "source": "https://www.isbank.com.tr/kampanyalar/secili-yapay-zeka-platformu-harcamalarina-ozel-indirim",
    "match": [
     "IS BANK",
     "ISBANK",
@@ -238,39 +383,28 @@
    ]
   },
   {
-   "id": "paraf-prime",
-   "bank": "Halkbank",
-   "title": "Paraf kartlara Amazon Prime",
-   "benefit": "Kart seviyesine göre ücretsiz Prime",
-   "detail": "Kart seviyesine bağlı.",
+   "id": "akbank-genc-dijital",
+   "bank": "Akbank",
+   "title": "Üniversiteli Akbanklılara dijital platformlarda %50 iade",
+   "benefit": "Ayda en çok 100 TL",
+   "detail": "18–26 yaş öğrenciler; Akbank Mobil'den katılmak gerekir. Uygulama mağazası ödemeleri hariç.",
    "brands": [
-    "Amazon Prime"
+    "Netflix",
+    "Spotify",
+    "YouTube Premium",
+    "Disney+",
+    "BluTV / HBO Max",
+    "Gain",
+    "tabii"
    ],
    "need": "kart",
    "until": "2026-12-31",
-   "source": "https://kartavantaj.com/marka/amazon-prime",
-   "match": [
-    "HALKBANK",
-    "PARAF"
-   ]
-  },
-  {
-   "id": "garanti-oyun",
-   "bank": "Garanti BBVA",
-   "title": "Seçili oyun platformlarında bonus",
-   "benefit": "1.000 TL'ye kadar bonus",
-   "detail": "BonusFlaş'tan katılım gerekir.",
-   "brands": [
-    "PlayStation",
-    "Xbox"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://kartavantaj.com/marka/playstation",
+   "source": "https://www.akbank.com/kampanyalar/dijital-platform-kampanyasi",
    "join": true,
+   "product": "Üniversiteli Akbanklı",
    "match": [
-    "GARANTI",
-    "BONUS"
+    "AKBANK",
+    "AXESS"
    ]
   },
   {
