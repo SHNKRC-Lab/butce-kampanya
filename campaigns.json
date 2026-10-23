@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-10-19",
- "checkedAt": "2026-10-19",
+ "generatedAt": "2026-10-23",
+ "checkedAt": "2026-10-23",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -436,6 +436,61 @@
    "need": "yok",
    "until": "2026-12-31",
    "source": "https://kartavantaj.com/marka/spotify"
+  },
+  {
+   "id": "maximum-genc-dijital-50",
+   "bank": "İş Bankası",
+   "title": "Maximum Genç ile dijital ve oyun platformlarına %50 MaxiPuan",
+   "benefit": "Ayda en çok 100 TL MaxiPuan",
+   "detail": "50 TL ve üzeri ödemelerde. İşCep veya Maximum Mobil'den katılmak gerekir. Netflix, Spotify, YouTube, Disney+, Amazon Prime, Exxen, Gain, Max, PlayStation, Xbox ve Steam dahil.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium",
+    "Disney+",
+    "Amazon Prime",
+    "Exxen",
+    "Gain",
+    "BluTV / HBO Max",
+    "PlayStation",
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-10-31",
+   "source": "",
+   "join": true,
+   "product": "Maximum Genç",
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
+   ]
+  },
+  {
+   "id": "akbank-1e1-dijital-25",
+   "bank": "Akbank",
+   "title": "1e1 müşterilerine dijital platformlarda %25 indirim",
+   "benefit": "Ayda en çok 100 TL",
+   "detail": "Bankayla iletişime geçilen 1e1 Bankacılık müşterilerine özel. Akbank Mobil'de 1e1 Ayrıcalıklar Dünyası'ndan katılmak gerekir. Netflix, Spotify, YouTube, Disney+, Exxen, Gain, BluTV, MUBI ve Digiturk dahil.",
+   "brands": [
+    "Netflix",
+    "Spotify",
+    "YouTube Premium",
+    "Disney+",
+    "Exxen",
+    "Gain",
+    "BluTV / HBO Max"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://www.akbank.com/tr-tr/kampanyalar/Sayfalar/1e1-dijital-platform-kampanyasi.aspx",
+   "join": true,
+   "product": "1e1 Bankacılık",
+   "match": [
+    "AKBANK",
+    "AXESS"
+   ]
   }
  ]
 }
