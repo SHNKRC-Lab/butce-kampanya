@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-10-23",
- "checkedAt": "2026-10-23",
+ "generatedAt": "2026-10-26",
+ "checkedAt": "2026-10-26",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -15,7 +15,7 @@
     "YouTube Premium"
    ],
    "need": "kart",
-   "until": "2026-10-31",
+   "until": "2026-12-31",
    "source": "https://www.enpara.com/kampanyalar/netflix-spotify-youtube-kampanyasi",
    "refund": [
     "NETFLIX, SPOTIFY VE YOUTUBE"
@@ -54,13 +54,13 @@
    "bank": "Enpara",
    "title": "Oyun platformlarında 150 TL iade",
    "benefit": "Tek seferde 750 TL ve üzeri alışverişe 150 TL",
-   "detail": "PlayStation Store, Steam, Epic ve Xbox alışverişlerinde geçerli; ayda bir kez. Ayın Enparalısı olmak gerekir.",
+   "detail": "PlayStation Store, Steam, Epic ve Xbox alışverişlerinde geçerli; ayda bir kez, toplam en çok 750 TL. Ayın Enparalısı olmak gerekir.",
    "brands": [
     "PlayStation",
     "Xbox"
    ],
    "need": "kart",
-   "until": "2026-10-31",
+   "until": "2026-12-31",
    "source": "https://www.enpara.com/kampanyalar/oyun-kampanyasi",
    "match": [
     "ENPARA"
@@ -367,13 +367,13 @@
    "bank": "İş Bankası",
    "title": "Seçili yapay zeka platformlarında %20 indirim",
    "benefit": "Ayda 200 TL'ye kadar (Black Plus'ta 300 TL)",
-   "detail": "Ayda 300 TL ve üzeri ChatGPT, Claude.ai ve Midjourney harcamalarında; Black ve Black Plus müşterilerine. App Store / Google Play ödemeleri hariç.",
+   "detail": "Tek seferde 300 TL ve üzeri ChatGPT, Claude.ai ve Midjourney harcamalarında; Black ve Black Plus müşterilerinin Maximum / Maximiles kartlarına. App Store / Google Play ödemeleri hariç.",
    "brands": [
     "ChatGPT",
     "Claude"
    ],
    "need": "kart",
-   "until": "",
+   "until": "2026-12-31",
    "source": "https://www.isbank.com.tr/kampanyalar/secili-yapay-zeka-platformu-harcamalarina-ozel-indirim",
    "match": [
     "IS BANK",
@@ -490,6 +490,42 @@
    "match": [
     "AKBANK",
     "AXESS"
+   ]
+  },
+  {
+   "id": "akbank-genc-oyun",
+   "bank": "Akbank",
+   "title": "Üniversiteli Akbanklılara Steam ve Epic Games'te %50 iade",
+   "benefit": "Ayda en çok 100 TL",
+   "detail": "18–26 yaş öğrenciler; Üniversiteli Akbanklı programına katılmak gerekir. Ayda bir kez; uygulama mağazası ödemeleri hariç.",
+   "brands": [],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://www.akbank.com/kampanyalar/oyun-platformlari-kampanyasi",
+   "join": true,
+   "product": "Üniversiteli Akbanklı",
+   "match": [
+    "AKBANK",
+    "AXESS"
+   ]
+  },
+  {
+   "id": "getirfinans-yapay-zeka-20",
+   "bank": "Getirfinans",
+   "title": "Hesap kartıyla ChatGPT ve Claude'a %20 nakit iade",
+   "benefit": "Ayda en çok 250 TL",
+   "detail": "Ayda bir işlem için geçerli; katılım otomatik. App Store, Google Play ve AppGallery ödemeleri hariç.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "hesap",
+   "until": "2026-10-31",
+   "source": "https://kartavantaj.com/kampanya/hesap-kartinla-chatgpt-veya-claude-harcamana-aninda-20-nakit-iade-getirfinans-kart",
+   "product": "Getirfinans Hesap Kartı",
+   "match": [
+    "GETIRFINANS",
+    "GETIR FINANS"
    ]
   }
  ]
