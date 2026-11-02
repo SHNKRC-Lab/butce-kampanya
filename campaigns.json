@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-10-26",
- "checkedAt": "2026-10-26",
+ "generatedAt": "2026-11-02",
+ "checkedAt": "2026-11-02",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -27,9 +27,9 @@
   {
    "id": "teb-visa-dijital-25",
    "bank": "TEB",
-   "title": "Visa kartlarla dijital platformlarda %25 indirim",
-   "benefit": "İşlem başı 750 TL'ye kadar, toplam en çok 300 TL",
-   "detail": "Katılmak gerekir. İndirim çekimde anında düşer. Netflix, Spotify, Disney+, PlayStation ve Xbox dahil; 750 TL üstü tek işlemler kapsam dışı.",
+   "title": "Visa kartlarla dijital platform aboneliklerine 300 TL'ye varan indirim",
+   "benefit": "Toplam en çok 300 TL indirim",
+   "detail": "Katılmak gerekir. TEB Visa bireysel kredi kartlarında; CEPTETEB, banka ve ticari kartlar hariç. Netflix, Spotify, Disney+, PlayStation ve Xbox dahil.",
    "brands": [
     "Netflix",
     "Spotify",
@@ -38,8 +38,8 @@
     "Xbox"
    ],
    "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.teb.com.tr/sizin-icin/dijital-platform-300/",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/marka/xbox",
    "join": true,
    "refund": [
     "DIJITAL PLATFORM KAMPANYASI"
@@ -71,12 +71,12 @@
    "bank": "Enpara",
    "title": "ChatGPT ve Gemini'ye %50 iade",
    "benefit": "Ayda en çok 250 TL",
-   "detail": "Ayda 500 TL'ye kadar harcamanın %50'si iade edilir; toplam en çok 1.000 TL. Ayın Enparalısı olmak gerekir.",
+   "detail": "Ayda 500 TL'ye kadar harcamanın %50'si iade edilir; toplam en çok 1.000 TL. Ayın Enparalısı olmak gerekir. App Store / Google Play ödemeleri de geçerli.",
    "brands": [
     "ChatGPT"
    ],
    "need": "kart",
-   "until": "2026-10-31",
+   "until": "2026-12-31",
    "source": "https://www.enpara.com/kampanyalar/chatgpt-gemini-kampanyasi",
    "match": [
     "ENPARA"
@@ -131,26 +131,6 @@
    ]
   },
   {
-   "id": "yapikredi-play-dijital",
-   "bank": "Yapı Kredi",
-   "title": "Play kartla dijital platform ve oyunlara %50 indirim",
-   "benefit": "En çok 150 TL",
-   "detail": "Genç segment Play kartlarında.",
-   "brands": [
-    "Netflix",
-    "Spotify",
-    "PlayStation"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://kartavantaj.com/marka/netflix",
-   "product": "Play kartı",
-   "match": [
-    "YAPI KREDI",
-    "YAPIKREDI"
-   ]
-  },
-  {
    "id": "ziraat-genc-dijital",
    "bank": "Ziraat Bankası",
    "title": "Bankkart Genç ile dijital platformlara %50 Jest Lira",
@@ -166,7 +146,7 @@
     "Gain"
    ],
    "need": "kart",
-   "until": "2026-10-31",
+   "until": "2026-11-30",
    "source": "https://www.bankkart.com.tr/kampanyalar/diger-kampanyalar/bankkart-genclilere-dijital-platform-odemelerinde-50-jest-lira",
    "product": "Bankkart Genç",
    "match": [
@@ -186,7 +166,7 @@
     "YouTube Premium"
    ],
    "need": "kart",
-   "until": "2026-10-31",
+   "until": "2026-11-30",
    "source": "https://kartavantaj.com/marka/netflix",
    "match": [
     "HAYAT FINANS"
@@ -208,25 +188,6 @@
    "source": "https://kartavantaj.com/marka/amazon-prime",
    "match": [
     "BURGAN"
-   ]
-  },
-  {
-   "id": "vakifbank-dijital-200",
-   "bank": "VakıfBank",
-   "title": "Dijital platform harcamasına 200 TL Worldpuan",
-   "benefit": "200 TL Worldpuan",
-   "detail": "Kartla kayıt olup dijital platformlarda harcama yapınca.",
-   "brands": [
-    "Netflix",
-    "Amazon Prime",
-    "Spotify"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://kartavantaj.com/marka/amazon-prime",
-   "join": true,
-   "match": [
-    "VAKIF"
    ]
   },
   {
@@ -269,25 +230,6 @@
    "join": true
   },
   {
-   "id": "garanti-oyun",
-   "bank": "Garanti BBVA",
-   "title": "Seçili oyun platformlarında bonus",
-   "benefit": "3.000 TL ve üzeri tek harcamaya 1.000 TL bonus",
-   "detail": "18–26 yaş; Garanti BBVA Mobil'de Garanti BBVA Genç alanından katılmak gerekir. Steam, PlayStation Network, Xbox ve seçili mobil oyunlar. Taksitli işlemler hariç.",
-   "brands": [
-    "PlayStation",
-    "Xbox"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.bonus.com.tr/kampanyalar/bonus-oyun-platformlari-kampanyalari",
-   "join": true,
-   "match": [
-    "GARANTI",
-    "BONUS"
-   ]
-  },
-  {
    "id": "garanti-genc-steam",
    "bank": "Garanti BBVA",
    "title": "Bonus Genç ile Steam, iTunes ve GeForce NOW'a bonus",
@@ -297,8 +239,8 @@
     "Apple (iCloud+, Apple TV…)"
    ],
    "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.bonus.com.tr/kampanyalar/bonus-genc-steam-kampanya",
+   "until": "2026-11-30",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-genc-steam-kampanyasi",
    "join": true,
    "product": "Bonus Genç",
    "match": [
@@ -316,50 +258,12 @@
     "Apple (iCloud+, Apple TV…)"
    ],
    "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.bonus.com.tr/kampanyalar/bonus-icloud-odeme-kampanyasi",
+   "until": "2026-11-30",
+   "source": "https://www.bonus.com.tr/kampanyalar/bonus-icloud-odeme-kampanyalari",
    "join": true,
    "match": [
     "GARANTI",
     "BONUS"
-   ]
-  },
-  {
-   "id": "garanti-yapay-zeka",
-   "bank": "Garanti BBVA",
-   "title": "ChatGPT ve Claude harcaması kadar bonus",
-   "benefit": "En çok 250 TL bonus",
-   "detail": "150 TL ve üzeri harcamada. 18–26 yaş; Garanti BBVA Mobil'de Garanti BBVA Genç alanından katılmak gerekir.",
-   "brands": [
-    "ChatGPT",
-    "Claude"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.bonus.com.tr/kampanyalar/bonus-yapay-zeka-kampanyasi",
-   "join": true,
-   "match": [
-    "GARANTI",
-    "BONUS"
-   ]
-  },
-  {
-   "id": "qnb-yapay-zeka-300",
-   "bank": "QNB",
-   "title": "Seçili yapay zeka platformlarında ParaPuan",
-   "benefit": "750 TL ve üzeri harcamaya 150 TL, toplam 300 TL ParaPuan",
-   "detail": "ChatGPT, Gemini, Claude ve Midjourney. Harcamadan önce QNB Mobil'den ya da YZEKA yazıp 2273'e SMS ile katılmak gerekir.",
-   "brands": [
-    "ChatGPT",
-    "Claude"
-   ],
-   "need": "kart",
-   "until": "2026-10-31",
-   "source": "https://www.qnbcard.com.tr/kampanyalar/secili-yapay-zeka-platformlarinda-300-tlye-varan-parapuan-43289",
-   "join": true,
-   "match": [
-    "QNB",
-    "FINANSBANK"
    ]
   },
   {
@@ -441,8 +345,8 @@
    "id": "maximum-genc-dijital-50",
    "bank": "İş Bankası",
    "title": "Maximum Genç ile dijital ve oyun platformlarına %50 MaxiPuan",
-   "benefit": "Ayda en çok 100 TL MaxiPuan",
-   "detail": "50 TL ve üzeri ödemelerde. İşCep veya Maximum Mobil'den katılmak gerekir. Netflix, Spotify, YouTube, Disney+, Amazon Prime, Exxen, Gain, Max, PlayStation, Xbox ve Steam dahil.",
+   "benefit": "Ödemelerde %50 MaxiPuan",
+   "detail": "İşCep veya Maximum Mobil'den katılmak gerekir. Seçili dijital ve oyun platformlarında geçerli; güncel platform listesi kampanya koşullarındadır.",
    "brands": [
     "Netflix",
     "Spotify",
@@ -456,8 +360,8 @@
     "Xbox"
    ],
    "need": "kart",
-   "until": "2026-10-31",
-   "source": "",
+   "until": "2027-06-30",
+   "source": "https://kartavantaj.com/marka/xbox",
    "join": true,
    "product": "Maximum Genç",
    "match": [
@@ -507,25 +411,6 @@
    "match": [
     "AKBANK",
     "AXESS"
-   ]
-  },
-  {
-   "id": "getirfinans-yapay-zeka-20",
-   "bank": "Getirfinans",
-   "title": "Hesap kartıyla ChatGPT ve Claude'a %20 nakit iade",
-   "benefit": "Ayda en çok 250 TL",
-   "detail": "Ayda bir işlem için geçerli; katılım otomatik. App Store, Google Play ve AppGallery ödemeleri hariç.",
-   "brands": [
-    "ChatGPT",
-    "Claude"
-   ],
-   "need": "hesap",
-   "until": "2026-10-31",
-   "source": "https://kartavantaj.com/kampanya/hesap-kartinla-chatgpt-veya-claude-harcamana-aninda-20-nakit-iade-getirfinans-kart",
-   "product": "Getirfinans Hesap Kartı",
-   "match": [
-    "GETIRFINANS",
-    "GETIR FINANS"
    ]
   }
  ]
