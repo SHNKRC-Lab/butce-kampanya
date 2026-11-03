@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-11-02",
- "checkedAt": "2026-11-02",
+ "generatedAt": "2026-11-03",
+ "checkedAt": "2026-11-03",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -411,6 +411,52 @@
    "match": [
     "AKBANK",
     "AXESS"
+   ]
+  },
+  {
+   "id": "vakifbank-dijital-200",
+   "bank": "VakıfBank",
+   "title": "Dijital platform aboneliklerine %25 Worldpuan",
+   "benefit": "İşlem başına en çok 50 TL, toplam 200 TL Worldpuan",
+   "detail": "VakıfBank Mobil'de Kartla Kazan alanından katılmak gerekir. Bireysel kredi kartları ve sanal kartlar geçerli. Netflix, HBO Max, beIN Connect, Exxen, tabii, YouTube Premium, Prime Video, Gain, Spotify, Fizy ve Apple TV dahil.",
+   "brands": [
+    "Netflix",
+    "BluTV / HBO Max",
+    "TOD / beIN",
+    "Exxen",
+    "tabii",
+    "YouTube Premium",
+    "Amazon Prime",
+    "Gain",
+    "Spotify",
+    "Apple (iCloud+, Apple TV…)"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/kampanya/dijital-platformlarda-200-tl-worldpuan",
+   "join": true,
+   "match": [
+    "VAKIFBANK",
+    "VAKIF"
+   ]
+  },
+  {
+   "id": "paraf-genc-prime",
+   "bank": "Halkbank",
+   "title": "Paraf GençİZ ile Amazon Prime üyeliği iadesi",
+   "benefit": "Prime üyelik ücreti karta iade",
+   "detail": "Halkbank Mobil veya Paraf Mobil'den alışverişten önce katılmak gerekir. Yalnızca amazon.com.tr üyelikleri geçerli; müşteri başına bir kez.",
+   "brands": [
+    "Amazon Prime"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/kampanya/paraf-genciz-den-amazon-prime-uyeligi-hediye-paraf-genc",
+   "join": true,
+   "product": "Paraf GençİZ",
+   "match": [
+    "HALKBANK",
+    "PARAF"
    ]
   }
  ]
