@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-11-03",
- "checkedAt": "2026-11-03",
+ "generatedAt": "2026-11-09",
+ "checkedAt": "2026-11-09",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -457,6 +457,50 @@
    "match": [
     "HALKBANK",
     "PARAF"
+   ]
+  },
+  {
+   "id": "isbank-yapay-zeka-maxipuan",
+   "bank": "İş Bankası",
+   "title": "Yılın ilk yapay zeka ödemesine %10 MaxiPuan",
+   "benefit": "En çok 250 TL MaxiPuan",
+   "detail": "Listedeki bir platformda tek seferde 400 TL ve üzeri, 2026'daki ilk ödemede geçerli. İşCep'ten katılmak gerekir. ChatGPT, Gemini, Claude, Perplexity, Midjourney, Canva Pro, Adobe Firefly ve GitHub Copilot dahil. Ticari, Nays, aidatsız ve Maximum Genç kartlar hariç.",
+   "brands": [
+    "ChatGPT",
+    "Claude",
+    "Canva",
+    "Adobe"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://www.isbank.com.tr/kampanyalar/yapay-zeka-odemenize-maxipuan",
+   "join": true,
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
+   ]
+  },
+  {
+   "id": "isbank-lacivert-yapay-zeka-15",
+   "bank": "İş Bankası",
+   "title": "İş Plus Lacivert müşterilerine yapay zeka platformlarında %15 indirim",
+   "benefit": "En çok 150 TL indirim",
+   "detail": "Her ay tek seferde 300 TL ve üzeri ilk ChatGPT, Midjourney veya Claude.ai harcamasında. Bankamatik ve bireysel Maximum / Maximiles kartlar geçerli; ticari kartlar, MaxiPara ve Nays hariç.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "",
+   "source": "https://www.isbank.com.tr/kampanyalar/size-ozel-yapay-zeka-platform-harcamaniza-ozel-indirim",
+   "product": "İş Plus Lacivert",
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
    ]
   }
  ]
