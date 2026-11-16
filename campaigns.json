@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-11-09",
- "checkedAt": "2026-11-09",
+ "generatedAt": "2026-11-16",
+ "checkedAt": "2026-11-16",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -501,6 +501,25 @@
     "ISBANK",
     "MAXIMUM",
     "TURKIYE IS"
+   ]
+  },
+  {
+   "id": "qnb-yapay-zeka-300",
+   "bank": "QNB",
+   "title": "Seçili yapay zekâ platformlarında 300 TL'ye varan ParaPuan",
+   "benefit": "Tek seferde 750 TL ve üzeri harcamaya 150 TL, toplam en çok 300 TL",
+   "detail": "ChatGPT, Gemini, Claude ve Midjourney ödemelerinde. Harcamadan önce QNB Mobil'den veya YZEKA yazıp 2273'e SMS ile katılmak gerekir. Miles&Smiles, ticari ve servis bankacılığı kartları hariç; aynı gün aynı iş yerinde yalnızca ilk işlem geçerli.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/kampanya/secili-yapay-zeka-platformlarinda-300-tl-ye-varan-parapuan",
+   "join": true,
+   "match": [
+    "QNB",
+    "FINANSBANK"
    ]
   }
  ]
