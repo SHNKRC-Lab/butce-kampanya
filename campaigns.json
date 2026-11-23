@@ -1,7 +1,7 @@
 {
  "version": 1,
- "generatedAt": "2026-11-16",
- "checkedAt": "2026-11-16",
+ "generatedAt": "2026-11-23",
+ "checkedAt": "2026-11-23",
  "campaigns": [
   {
    "id": "enpara-dijital-50",
@@ -360,7 +360,7 @@
     "Xbox"
    ],
    "need": "kart",
-   "until": "2027-06-30",
+   "until": "2026-12-01",
    "source": "https://kartavantaj.com/marka/xbox",
    "join": true,
    "product": "Maximum Genç",
@@ -520,6 +520,144 @@
    "match": [
     "QNB",
     "FINANSBANK"
+   ]
+  },
+  {
+   "id": "yapikredi-yeni-dizi-film",
+   "bank": "Yapı Kredi",
+   "title": "Yeni müşterilere 3 ay dizi-film aboneliği kadar nakit iade",
+   "benefit": "Aylık platform başına en çok 200 TL, toplam 2.400 TL",
+   "detail": "İlk kez Yapı Kredili olanlara; Yapı Kredi Mobil'de müşteri olurken kampanya koduyla başvurmak gerekir. 50 TL ve üzeri abonelik ödemelerinde, 3 ay boyunca. Bireysel kredi kartı; uygulama mağazası ödemeleri hariç.",
+   "brands": [
+    "Netflix",
+    "Amazon Prime",
+    "BluTV / HBO Max",
+    "Disney+"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://www.yapikredi.com.tr/kampanyalar/detay/257116",
+   "join": true,
+   "match": [
+    "YAPI KREDI",
+    "YAPIKREDI",
+    "WORLD"
+   ]
+  },
+  {
+   "id": "yapikredi-play-yeni-dijital",
+   "bank": "Yapı Kredi",
+   "title": "Yeni Play'lilere dijital platformlarda %50 puan",
+   "benefit": "Ayda en çok 150 TL",
+   "detail": "18–26 yaş, ilk kez Yapı Kredi Mobil'den müşteri olanlara; kampanya koduyla başvurmak ve World Mobil'den katılmak gerekir. Netflix, Prime, Spotify, YouTube, beIN Connect, Exxen ve BluTV dahil.",
+   "brands": [
+    "Netflix",
+    "Amazon Prime",
+    "Spotify",
+    "YouTube Premium",
+    "TOD / beIN",
+    "Exxen",
+    "BluTV / HBO Max"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://www.yapikredi.com.tr/kampanyalar/detay/254998",
+   "join": true,
+   "product": "Play",
+   "match": [
+    "YAPI KREDI",
+    "YAPIKREDI",
+    "WORLD"
+   ]
+  },
+  {
+   "id": "burgan-on-oyun-300",
+   "bank": "Burgan Bank",
+   "title": "ON kredi kartıyla oyun platformlarında 300 TL iade",
+   "benefit": "300 TL iade",
+   "detail": "Oyun platformu ödemelerinde.",
+   "brands": [
+    "Xbox"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/marka/xbox",
+   "match": [
+    "BURGAN"
+   ]
+  },
+  {
+   "id": "maximum-genc-yapay-zeka-20",
+   "bank": "İş Bankası",
+   "title": "Maximum Genç ile yapay zeka ve tasarım platformlarında %20 indirim",
+   "benefit": "200 TL'ye varan indirim",
+   "detail": "Seçili yapay zeka ve tasarım platformu harcamalarında.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/chatgpt",
+   "product": "Maximum Genç",
+   "match": [
+    "IS BANK",
+    "ISBANK",
+    "MAXIMUM",
+    "TURKIYE IS"
+   ]
+  },
+  {
+   "id": "qnb-miles-yapay-zeka",
+   "bank": "QNB",
+   "title": "Miles&Smiles ile seçili yapay zeka platformlarında 300 mile varan",
+   "benefit": "300'e varan mil",
+   "detail": "Seçili yapay zeka platformu ödemelerinde.",
+   "brands": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/marka/claude",
+   "product": "QNB Miles&Smiles",
+   "match": [
+    "QNB",
+    "FINANSBANK"
+   ]
+  },
+  {
+   "id": "ziraat-dinamik-tod",
+   "bank": "Ziraat Bankası",
+   "title": "Bankkart Dinamik ile TOD Taraftar paketi 1 ay ücretsiz",
+   "benefit": "1 ay ücretsiz TOD Taraftar",
+   "detail": "TOD Taraftar paketi aboneliğinde.",
+   "brands": [
+    "TOD / beIN"
+   ],
+   "need": "kart",
+   "until": "2026-11-30",
+   "source": "https://kartavantaj.com/marka/bein-connect",
+   "product": "Bankkart Dinamik",
+   "match": [
+    "ZIRAAT"
+   ]
+  },
+  {
+   "id": "paraf-digiturk-1000",
+   "bank": "Halkbank",
+   "title": "Paraf ile Digiturk'te 1.000 TL ParafPara",
+   "benefit": "1.000 TL ParafPara",
+   "detail": "Digiturk Yıldız Dolu paketi aboneliğinde.",
+   "brands": [
+    "TOD / beIN"
+   ],
+   "need": "kart",
+   "until": "2026-12-31",
+   "source": "https://kartavantaj.com/marka/bein-connect",
+   "match": [
+    "HALKBANK",
+    "PARAF"
    ]
   }
  ]
